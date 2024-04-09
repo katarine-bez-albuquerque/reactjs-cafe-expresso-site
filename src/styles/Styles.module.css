@@ -614,6 +614,7 @@
 
     .listMenuItems .containerRowFull {
         height: auto;
+        gap: 0.25em;
     }
 
     .footer .containerRow {
