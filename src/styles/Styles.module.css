@@ -170,6 +170,8 @@
 .nossoMenuCarousel {
     height: auto;
     display: flex;
+    padding: 0 1em;
+    box-sizing: border-box;
     gap: 1em;
     align-items: center;
 }
@@ -191,13 +193,13 @@
     width: 60vw;
     height: auto;
     display: flex;
-    gap: 1em;
+    /* gap: 1vw; */
     align-items: center;
     overflow: hidden;
 }
 
 .carouselItem {
-    width: 30%;
+    width: 20vw;
     flex-shrink: 0;
     text-align: center;
     font-size: 1.8rem;
@@ -433,29 +435,30 @@
 
 @media(max-width: 786px) {
     .imgs {
-        width: 45%;
+        width: 65%;
     }
 
     .imgClient {
-        width: 12vw;
+        width: 80px;
     }
 
     .imgClientCafe {
         width: auto;
-        height: 90%;
+        height: 55%;
         position: absolute;
         left: -10vw;
+        top: 25%;
     }
 
     .navbar {
         height: 20vh;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .navbar img {
-        width: 150px;
+        width: 210px;
     }
 
     .header,
@@ -467,23 +470,23 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        padding: 1em 0;
+        padding: 0.25em 0;
         box-sizing: border-box;
     }
     
     .container,
     .containerRow,
     .containerRowFull {
-        height: 100vh;
-        gap: 0.25em;
+        height: auto;
+        gap: 0.2em;
     }
 
     .header .container {
-        height: 78vh;
+        height: auto;
     }
     
     .headerInfoImg img {
-        width: 30%;
+        width: 43%;
     }
 
     .header section article {
@@ -503,8 +506,15 @@
     .sobre,
     .nossoMenu,
     .clientes,
-    .contato {
+    .contato,
+    .listMenu,
+    .footer {
         height: auto;
+    }
+
+    .sobre h2 {
+        line-height: 1.1em;
+        margin-bottom: 0.25em;
     }
 
     .sobre article {
@@ -526,25 +536,42 @@
         display: none;
     }
 
+    .clientes h2 {
+        line-height: 1.1em;
+        margin-bottom: 0.25em;
+    }
+
     .testmonial {
         background: none;
     }
        
     .carousel {
         padding: 1em 0;
-    }    
+    }
+
+    .carouselItem {
+        width: 30vw;
+    }
 
     .carouselItem h6,
     .carouselItem h5 {
-        font-size: 0.5em;
+        font-size: 0.7em;
     }
 
     .contatoInfo {
         order: 2;
     }
 
+    .contato article:nth-child(2) img {
+        width: 28px;
+    }
+
+    .contato article:nth-child(3) img {
+        width: 120px;
+    }
+
     .contato h2 {
-        line-height: 2rem;
+        line-height: 1.1em;
         margin-bottom: 0.25em;
     }
 
@@ -552,8 +579,14 @@
         width: 200px;
     }
 
+    .contato input,
+    .contato input::placeholder {
+        font-size: 0.7em;
+    }
+
     .contato .containerRowFull {
-        height: 58vh;
+        height: auto;
+        padding: 1em 0;
     }
 
     .contato section article {
@@ -563,6 +596,11 @@
 
     .listMenuItems {
         padding: 1em 0;
+        text-align: left;
+    }
+
+    .listMenuItems .containerRowFull {
+        height: auto;
     }
 
     .footer .containerRow {
@@ -572,9 +610,34 @@
 
 @media(max-width: 467px) {
     .carousel {
-        gap: 0.2em;
+        width: 40vw;
     }
+
     .carouselItem {
-        width: 47%;
+        width: 40vw;
+    }
+
+    .listMenuItems {
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .listMenuItems ul {
+        padding: 0;
+    }
+
+    .footer{
+        height: auto;
+    }
+    
+    .footer ul{
+        gap: 0.2em;
+        height: 2vh;
+        flex-direction: column;
+    }
+
+    .footer ul li {
+        height: auto;
     }
 }

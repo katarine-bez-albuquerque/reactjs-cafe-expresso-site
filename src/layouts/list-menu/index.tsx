@@ -17,18 +17,14 @@ const ListMenu = () => (
                 <ul>
                     <li><Link href="" name="Loren"/></li>
                     <li><Link href="" name="Ipsum"/></li>
-                    <li><Link href="" name="Dolor"/></li>
                     <li><Link href="" name="Sit Ame"/></li>
                     <li><Link href="" name="Ipsum Dolor"/></li>
-                    <li><Link href="" name="Loren"/></li>
                 </ul>
                 <ul>
                     <li><Link href="" name="Loren"/></li>
                     <li><Link href="" name="Ipsum"/></li>
-                    <li><Link href="" name="Dolor"/></li>
                     <li><Link href="" name="Sit Ame"/></li>
                     <li><Link href="" name="Ipsum Dolor"/></li>
-                    <li><Link href="" name="Loren"/></li>
                 </ul>
             </article>
         </section>
