@@ -459,6 +459,8 @@
 
     .navbar ul {
         flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
 
     .navbar img {
