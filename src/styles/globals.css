@@ -52,7 +52,7 @@ body,
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;   
 }
 
 header,
@@ -80,6 +80,6 @@ p {
     section,
     article,
     footer {
-        font-size: 1.2em;
+        font-size: 1.11em;
     }
 }

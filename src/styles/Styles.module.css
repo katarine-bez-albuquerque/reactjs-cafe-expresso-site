@@ -435,7 +435,7 @@
 
 @media(max-width: 786px) {
     .imgs {
-        width: 65%;
+        width: 55%;
     }
 
     .imgClient {
@@ -486,7 +486,7 @@
     }
     
     .headerInfoImg img {
-        width: 43%;
+        width: 35%;
     }
 
     .header section article {
@@ -510,6 +510,7 @@
     .listMenu,
     .footer {
         height: auto;
+        box-sizing: border-box;
     }
 
     .sobre h2 {
@@ -527,8 +528,13 @@
         position: relative;
     }
 
+    .clientes section article section {
+        padding: 0;
+    }
+
     .clientes section article {
         padding: 1em 0;
+        box-sizing: border-box;
         text-align: center;        
     }
 
