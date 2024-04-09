@@ -2,7 +2,7 @@
 
 <img src="./images/banner.png" alt="Banner" width="100%"/>
 
-Acesse o Projeto: [Café Expresso React]()
+Acesse o Projeto: [Café Expresso React](https://cafe-expresso-site.vercel.app/)
 
 ## Sobre o projeto
 
