@@ -457,6 +457,10 @@
         justify-content: flex-start;
     }
 
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+
     .navbar img {
         width: 210px;
     }
