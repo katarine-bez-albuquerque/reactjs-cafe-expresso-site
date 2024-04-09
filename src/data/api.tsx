@@ -1,3 +1,3 @@
 export const Api = {
-    base: "http://localhost:5173/"
+    base: "https://cafe-expresso-site.vercel.app/"
 };
