@@ -642,6 +642,7 @@
 
     .footer{
         height: auto;
+        padding-bottom: 0.5em;
     }
     
     .footer ul{
