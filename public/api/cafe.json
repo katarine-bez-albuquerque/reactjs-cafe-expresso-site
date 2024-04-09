@@ -1,0 +1,74 @@
+{
+    "data": [
+        {
+            "image": "cafe-011.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 24,00",
+            "text": "My Loren"
+        },
+        {
+            "image": "cafe-02.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 12,00",
+            "text": "My Loren"
+        },
+        {
+            "image": "cafe-03.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 18,00",
+            "text": "My Loren"
+        },
+        {
+            "image": "cafe-04.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 21,00",
+            "text": "My Loren"
+        },
+        {
+            "image": "cafe-05.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 15,00",
+            "text": "My Loren"
+        },
+        {
+            "image": "cafe-012.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 23,00",
+            "text": "My Loren"
+        },
+        {
+            "image": "cafe-002.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 26,00",
+            "text": "My Loren"
+        },
+        {
+            "image": "cafe-003.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 16,00",
+            "text": "My Loren"
+        },
+        {
+            "image": "cafe-004.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 17,00",
+            "text": "My Loren"
+        },
+        {
+            "image": "cafe-005.png",
+            "title": "Loren Ipsum",
+            "only": "Only",
+            "value": "R$ 25,00",
+            "text": "My Loren"
+        }
+    ]
+}
